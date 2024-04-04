@@ -1,0 +1,43 @@
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.8rem;
+  padding: 0 1.6rem;
+  /* border-bottom: 1px solid gray; */
+  color: white;
+  font-size: 1.2rem;
+  z-index: 5;
+}
+
+/* .user-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover; */
+/* filter: invert(); */
+/* } */
+.user-icon {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
+@media (orientation: portrait) {
+  .header {
+    font-size: 1rem;
+  }
+  .user-icon {
+    width: 30px;
+    height: 30px;
+  }
+}

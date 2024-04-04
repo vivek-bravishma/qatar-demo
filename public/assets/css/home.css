@@ -1,0 +1,845 @@
+.logoimg {
+	margin-top: 10px;
+	height: 35px;
+	width: 41px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.user-login-btn {
+	display: flex;
+	gap: 5px;
+}
+
+.user-login-a:hover img,
+.user-login-a:focus img {
+	/* filter: invert(21%) sepia(11%) saturate(1822%) hue-rotate(247deg) brightness(97%) contrast(89%); */
+	filter: invert(68%) sepia(44%) saturate(755%) hue-rotate(167deg)
+		brightness(92%) contrast(93%);
+}
+
+/* .user-icon{
+	padding: 0 5px;
+} */
+
+.logotext {
+	font-size: 20px;
+	margin-left: 5px;
+	font-weight: 600;
+	position: relative;
+	top: 10px;
+}
+
+.slider {
+	background-image: url(../images/slider.jpg);
+	background-size: contain;
+}
+
+.bankslider {
+	background-image: url(../images/bank-slider.png);
+	background-size: contain;
+}
+
+.navhealthcare {
+	background-color: #5a95c6;
+}
+
+.navtravel {
+	/*background-color: #461512;*/
+	background-color: #009e90;
+}
+
+.navbank {
+	background-color: #bdbdbd;
+	background-color: #ffffff;
+	z-index: 10;
+	box-shadow: 0 7px 15px rgba(0, 0, 0, 0.25);
+}
+
+.navbank .container-fluid {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	gap: 2rem;
+	/* justify-content: center; */
+}
+
+.navbank ul {
+	list-style: none;
+}
+
+.navbank a {
+	/* padding-top: 15px; */
+	padding-bottom: 0;
+	font-size: 18px;
+	letter-spacing: -0.25px;
+	white-space: nowrap;
+	font-weight: 300;
+	/* height: 62px; */
+	color: rgb(51, 51, 51);
+}
+
+.nav-login-container a {
+	/* all: unset; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: -0.25px;
+	white-space: nowrap;
+	font-weight: 300;
+	font-size: 13px !important;
+}
+
+.nav-login-container a p {
+}
+
+.navbank .container-fluid a {
+	text-decoration: none;
+}
+
+.nav-login-container svg path.b,
+.inner-homepage .loginprofile svg path.b,
+.searchicon svg path {
+	fill: var(--primary1);
+}
+
+.navbank .logo-container a picture {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.navbank .logo-container {
+	display: flex;
+	width: 20%;
+}
+
+.navbank .nav-links-container {
+	/* display: flex; */
+	width: 80%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbank .nav-links-container a {
+	padding: 0 1rem;
+	display: flex;
+	flex-flow: row;
+}
+
+.navbank .nav-login-container {
+	/* display: flex; */
+	width: 20%;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.navretail {
+	background-color: #ffffff;
+}
+
+.navedu {
+	background-color: #244a8b;
+}
+
+.navcust {
+	background-color: #da291c;
+}
+
+.retailbuttons {
+	background-color: #e3e4e6;
+}
+
+.healthcareslider {
+	background-image: url(../images/healthcareslider.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+.travelslider {
+	background-image: url(../images/travelslider.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+.bankslider {
+	background-image: url(../images/bankslider.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+.retailslider {
+	background-image: url(../images/retailslider.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+.whiteColor {
+	color: white;
+}
+
+.blackColor {
+	color: black;
+}
+
+.banner-text {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	color: #2b2b2b;
+}
+
+.banner-text-p {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	color: #2b2b2b;
+	display: block;
+	margin-top: -10px;
+}
+
+.banner-text-left {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: right;
+	color: #000000;
+	display: block;
+}
+
+.margin-top-eighteen {
+	margin-top: 18px;
+}
+.margin-bottom-eighteen {
+	margin-bottom: 18px;
+}
+
+.margin-top-ten {
+	margin-top: 10px;
+}
+
+.footer-text {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-size: 15px;
+}
+
+.homepage-brand-beyond {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	color: black;
+}
+
+.homepage-brand {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	color: black;
+}
+
+.healthcare-brand-beyond {
+	width: 128px;
+	font-family: "Gotham";
+	font-style: normal;
+	letter-spacing: -0.07em;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.healthcare-brand {
+	font-family: "Gotham";
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: -0.03em;
+	font-size: 25px;
+}
+
+.healthcare-menu {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	margin-right: 10%;
+	color: white;
+	float: right;
+}
+
+.travel-menu {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	float: right;
+}
+
+.text-block {
+	background-color: #ffffffe6;
+	color: black;
+	margin-left: 14%;
+	margin-top: 16%;
+	padding-left: 55px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 25px;
+	text-align: left;
+	width: fit-content;
+}
+
+.text-block-title-1 {
+	font-family: "Inter";
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.text-block-title {
+	font-family: "Poppins";
+	margin-bottom: 8px;
+	font-weight: 900;
+	font-size: 19px;
+	text-transform: capitalize;
+	color: #2b2b2b;
+}
+
+.text-block-subtitle {
+	border: 1px solid black;
+	padding: 4px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #2b2b2b;
+}
+
+.h-image-gallery-title {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 30px;
+	color: #4e5357;
+	margin-bottom: 10px;
+}
+
+.b-image-gallery-title {
+	width: 224px;
+	height: 30px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	color: #316ca9;
+}
+
+.e-image-gallery-title {
+	font-family: "Lora";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	color: #4e5357;
+}
+
+.h-image-gallery-text {
+	text-align: left;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.b-image-gallery-text {
+	text-align: left;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.e-image-gallery-text {
+	font-family: "Lora";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	color: #000000;
+}
+
+.h-image-gallery-button {
+	color: white;
+	background-color: #5a95c6;
+}
+
+.t-image-gallery-button {
+	color: white;
+	/*background-color: #461512;*/
+	background-color: #009e90;
+}
+
+.h-image-gallery-carousel-caption {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	color: #ffffff;
+	bottom: 0px;
+	position: absolute;
+	text-align: left;
+	margin-left: 10px;
+	line-height: 25px;
+}
+
+.h-image-gallery-bg {
+	height: 240px;
+	background-size: cover;
+	color: white;
+}
+
+.h-image-gallery-bg-1 {
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%),
+		url(/assets/images/patient-1.png);
+}
+
+.h-image-gallery-bg-2 {
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%),
+		url(/assets/images/patient-2.png);
+}
+.h-image-gallery-bg-3 {
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%),
+		url(/assets/images/patient-3.png);
+}
+.h-image-gallery-bg-4 {
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%),
+		url(/assets/images/patient-4.png);
+}
+
+.h-contactus-bg {
+	background-color: #f1f1f1;
+	padding: 10px;
+	margin: 0px;
+}
+
+.h-contact-us {
+	height: 31.32px;
+	width: 35px;
+}
+.h-contact-us-text {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	color: #242424;
+}
+
+.h-help-text {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 30px;
+	color: #242424;
+}
+
+.h-help-text-1 {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #242424;
+}
+
+.h-contact-us-border {
+	border-left: 4px solid white;
+}
+
+.h-footer-bg {
+	background-color: #5a95c6;
+}
+
+.t-footer-bg {
+	/*background-color: #5e6f8f;*/
+	background-color: #009e90;
+}
+
+.e-footer-bg {
+	background-color: #244a8b;
+}
+
+.r-footer-bg {
+	background-color: #3b3b3d;
+}
+
+.b-footer-bg {
+	background-color: #4f3552;
+	width: 100%;
+}
+
+.c-footer-bg {
+	background-color: #0f2c6e;
+}
+
+.h-social-media-1 {
+	height: 30px;
+	width: 30px;
+}
+
+.h-social-media-2 {
+	height: 23px;
+	width: 28px;
+	margin-left: 5px;
+}
+
+.h-social-media-3 {
+	height: 30px;
+	width: 30px;
+	margin-left: 5px;
+}
+
+.h-social-media-4 {
+	height: 30px;
+	width: 30px;
+	margin-left: 5px;
+}
+
+.border-left {
+	border-left: 1px solid #757575;
+}
+
+.padding-twentryfive {
+	padding: 25px;
+}
+
+.t-offer-text-1 {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	color: #4092cb;
+}
+
+.t-offer-text-2 {
+	width: 250px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 600;
+	color: #000000;
+}
+
+.t-offer-text-3 {
+	background: #ffffff;
+	border: 1px solid #461512;
+	padding: 5px;
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	color: #461512;
+}
+
+.t-image-gallery-title {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.t-text-block-subtitle {
+	border: 1px solid black;
+	padding: 7px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background: #461512;
+	border-radius: 5px;
+}
+
+.t-newsletter-title {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	color: #ffffff;
+}
+
+.r-newsletter-subtitle {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.bank-service-text {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	color: #0f2c6e;
+}
+
+.b-img-text1 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.23em;
+	color: #a5b1cd;
+	text-align: left;
+	margin-top: 8px;
+}
+
+.b-img-text2 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	color: #0f2c6e;
+	text-align: left;
+	margin-top: 8px;
+}
+
+.b-img-text3 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #081737;
+	text-align: left;
+	margin-top: 8px;
+}
+
+.trend-text1 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	color: #000000;
+}
+
+.trend-text2 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: #888888;
+}
+
+.trend-text3 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #000000;
+}
+
+.trend-text4 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #000000;
+}
+
+.trend-text-title {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	color: #242424;
+}
+
+.healthcareslider {
+	background-image: url(../images/healthcareslider.png);
+}
+
+.educationslider {
+	background-image: url(../images/educationslider.png);
+}
+
+.fashioncaption {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+	text-align: center;
+}
+
+.uploadwebsite {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #2b2b2b;
+}
+
+.uploadflowcontainer {
+	background: #fafafa;
+	border: 1px solid #dcdcdc;
+	border-radius: 16px;
+	padding: 20px;
+	text-align: center;
+}
+
+.custom-file-upload {
+	display: inline;
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.resetCustom {
+	display: none;
+}
+
+.verticles-icon-img {
+	height: 45px;
+	width: 45px;
+	margin-top: 10px;
+}
+
+.verticles-icon-text {
+	height: 45px;
+	width: 45px;
+}
+
+.padding-left-brand {
+	padding-left: 18%;
+}
+
+@media screen and (max-width: 992px) {
+	.padding-left-brand {
+		padding-left: 2%;
+	}
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.col-xs-15 {
+	width: 20%;
+	float: left;
+}
+@media (min-width: 768px) {
+	.col-sm-15 {
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width: 992px) {
+	.col-md-15 {
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width: 1200px) {
+	.col-lg-15 {
+		width: 20%;
+		float: left;
+	}
+}
+
+.custom-col-xs-7,
+.custom-col-sm-7,
+.custom-col-md-7,
+.custom-col-lg-7 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.custom-col-xs-7 {
+	width: 14.28%;
+	float: left;
+}
+@media (min-width: 768px) {
+	.custom-col-sm-7 {
+		width: 14.28%;
+		float: left;
+	}
+}
+@media (min-width: 992px) {
+	.custom-col-md-7 {
+		width: 14.28%;
+		float: left;
+	}
+}
+@media (min-width: 1200px) {
+	.custom-col-lg-7 {
+		width: 14.28%;
+		float: left;
+	}
+}
+
+.white-bg {
+	background: white;
+}
+
+.ff-inter {
+	font-family: "Inter";
+}
+
+.width-100p {
+	width: 100%;
+}
+
+.purplish-bg {
+	background: #4f3552;
+}
+
+.foot-cont {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 12px;
+}
+
+.foot-link {
+	color: white;
+	text-decoration: none;
+}
+
+/* .qatar_table_burgundy {
+	text-align: center;
+} */

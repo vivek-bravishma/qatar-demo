@@ -1,0 +1,164 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap");
+body {
+	line-height: normal;
+}
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	/* fonts */
+	--font-ubuntu: Ubuntu;
+	--font-hanuman: Hanuman;
+
+	/* font sizes */
+	--font-size-lg: 18px;
+	--font-size-11xl: 30px;
+
+	/* Colors */
+	--color-white: #fff;
+	--color-gray-100: rgba(255, 255, 255, 0.1);
+	--color-gray-200: rgba(255, 255, 255, 0);
+	--color-silver: #b7b7b7;
+	--color-black: #000;
+	--color-darkslateblue: #0d284d;
+
+	/* Gaps */
+	--gap-279xs: -266px;
+	--gap-31xl: 50px;
+
+	/* Paddings */
+	--padding-61xl: 80px;
+	--padding-11xl: 30px;
+	--padding-mini: 15px;
+	--padding-xl: 20px;
+	--padding-3xs: 10px;
+
+	/* Border radiuses */
+	--br-11xs: 2px;
+	--br-104xl: 123px;
+
+	--img-rot-deg: 15deg;
+	--neg-img-rot-deg: calc(var(--img-rot-deg) * -1);
+}
+
+:root,
+[data-theme="default"] {
+	--brand-tertiary-grey-outlines-dividers: #e0dfdf;
+	--brand-background-white-background-text: #fff;
+	--brand-background: #f2f3fa;
+	--brand-secondary-grey: #555;
+	--brand-primary-grey: #333;
+	--brand-primary-burgundy: #5c0931;
+	--brand-primary-burgundy-lighter: #850d47;
+	--brand-primary-safron: #ffa903;
+	--primary1: var(--brand-primary-burgundy);
+	--primary2: var(--brand-primary-safron);
+	--primary3: var(--brand-primary-burgundy-lighter);
+	--success: #00a651;
+	--alert: #fde900;
+	--error: #b30000;
+	--info: #3370ea;
+	--placeholder: var(--brand-secondary-grey);
+	--input-text: var(--brand-primary-grey);
+	--body-text: var(--brand-primary-burgundy);
+	--noto-sans: Noto Sans, Verdana, Geneva, sans-serif !important;
+	--jotia: Jotia, Verdana, Geneva, sans-serif !important;
+	--normal: normal;
+	--normal-font-weight: 300px;
+	--medium: medium;
+	--font-xxs: 12px;
+	--font-xs: 13px;
+	--font-s: 15px;
+	--font-m: 16px;
+	--font-l: 18px;
+	--font-xl: 24px;
+	--font-xxl: 30px;
+	--font-xxxl: 40px;
+	--font-h1: var(--font-xxxl);
+	--font-h1-s: var(--font-xxl);
+	--font-h2: var(--font-xxl);
+	--font-h2-s: var(--font-xl);
+	--font-h3: var(--font-xl);
+	--font-h3-s: var(--font-l);
+	--font-h4: var(--font-l);
+	--font-h4-s: var(--font-m);
+	--input-label: 17px;
+	--input-label-s: 13px;
+	--zero: 0;
+	--space-xxs: 16px;
+	--space-xs: 24px;
+	--space-s: 32px;
+	--space-m: 40px;
+	--space-l: 48px;
+	--space-xl: 56px;
+	--space-xxl: 64px;
+	--space-xxxl: 72px;
+	--primary1-border: 2px solid #5c0931;
+	--primary2-border: 2px solid #ffa903;
+	--left: left;
+	--right: right;
+	--float-left: var(--left);
+	--float-right: var(--right);
+	--text-left: var(--left);
+	--text-right: var(--right);
+	--text-center: center;
+	--dir: ltr;
+	--innerPage-font-h1: 48px;
+	--innerPage-font-h2: 36px;
+	--innerPage-font-h4: 28px;
+	--innerPage-font-p: 16px;
+	--ineerPage-lineHeight-h2: 44px;
+	--ineerPage-lineHeight-h4: 34px;
+	--ineerPage-lineHeight-p: 24px;
+	--flow-primary-burgundy: #8e2157;
+	--flow-primary-violet: #3a35af;
+	--flow-secondary-violet: #6661cf;
+	--flow-primary-grey: #1f212b;
+	--flow-secondary-grey: #4a525d;
+	--flow-background-grey: #f2f3fa;
+	--flow-tertiary-grey: #dbdee8;
+	--flow-white: #fff;
+	--flow-black: #000;
+	--flow-inflight-violet: #29293f;
+	--flow-inflight-secondary-violet: #bcaef0;
+	--flow-loyalty-primary-burgundy: #5c0931;
+	--flow-loyalty-secondary-burgundy: #8e2157;
+	--flow-loyalty-primary-silver: #4a525d;
+	--flow-loyalty-secondary-Silver: #8c919b;
+	--flow-loyalty-primary-gold: #644316;
+	--flow-loyalty-secondary-gold: #c29352;
+	--flow-loyalty-primary-platinum: #2f3739;
+	--flow-Loyalty-secondary-platinum: #414a4c;
+	--flow-loyalty-secondary-black: #4a525d;
+	--flow-standard-space: var(--space-xs);
+	--flow-standard-radius: 20px;
+	--flow-CTA-radius: 32px;
+	--flow-body-text: 16px;
+	--hero-font-size: 40px;
+	--hero-font-weight: 100;
+	--font-weight-normal: 300;
+	--font-size-content: var(--font-m);
+	--gap-bw-components: var(--space-xxxl);
+}

@@ -1,0 +1,79 @@
+.feedbackWidget-container {
+	--fbwCircleWidth: 4em;
+	--fbwCircleHeight: 4em;
+	/* --brndPrimaryCol: var(--primary1); */
+	--brndPrimaryCol: #8e2157;
+
+	z-index: 999;
+	position: fixed;
+	bottom: 16px;
+	left: 16px;
+}
+
+.feedbackWidget-circle {
+	width: var(--fbwCircleWidth);
+	height: var(--fbwCircleHeight);
+	background: var(--brndPrimaryCol);
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.feedbackWidget-circle img {
+	width: 60%;
+	height: 60%;
+}
+
+.feedbackWidget-main-div {
+	position: absolute;
+	left: 0;
+	bottom: calc(var(--fbwCircleHeight) + 1rem);
+	width: 400px;
+	border: 1px solid #ccc;
+
+	padding: 1rem 1.5rem;
+    background: #fff;
+}
+
+.feedbackWidget-main {
+	width: 100%;
+	height: 100%;
+}
+
+.feedbackWidget-main-div h1 {
+	color: #4caf50;
+}
+
+.feedbackWidget-main-div label {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: #555;
+	font-weight: bold;
+}
+
+.feedbackWidget-main-div input,.feedbackWidget-main-div textarea {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.feedbackWidget-main-div button {
+	padding: 15px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background-color: #4caf50;
+	width: 100%;
+	font-size: 16px;
+}

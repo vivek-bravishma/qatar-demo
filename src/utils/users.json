@@ -1,0 +1,74 @@
+[
+	{
+		"id": "8",
+		"membershipNo": "12345",
+		"name": "Alex",
+		"email": "alex@gmail.com",
+		"password": "1234",
+		"userType": "platinum"
+	},
+	{
+		"id": "9",
+		"membershipNo": "54321",
+		"name": "Alexa",
+		"email": "alexa@gmail.com",
+		"password": "1234",
+		"userType": "normal"
+	},
+	{
+		"id": "1",
+		"membershipNo": "1",
+		"name": "Vivek Kapoor",
+		"email": "vkapoor@qatarairways.com.qa",
+		"password": "1234",
+		"userType": "platinum"
+	},
+	{
+		"id": "2",
+		"membershipNo": "2",
+		"name": "Omar Tarik Kazi",
+		"email": "okazi@qatarairways.com.qa",
+		"password": "1234",
+		"userType": "platinum"
+	},
+	{
+		"id": "3",
+		"membershipNo": "3",
+		"name": "Alaeddine Kallali",
+		"email": "akallali@qatarairways.com.qa",
+		"password": "1234",
+		"userType": "platinum"
+	},
+	{
+		"id": "4",
+		"membershipNo": "4",
+		"name": "Omar Ali",
+		"email": "omali@qatarairways.com.qa",
+		"password": "1234",
+		"userType": "platinum"
+	},
+	{
+		"id": "5",
+		"membershipNo": "5",
+		"name": "Manikantan Vannadil Puthiyaveettil",
+		"email": "mputhiyaveettil@qatarairways.com.qa",
+		"password": "1234",
+		"userType": "platinum"
+	},
+	{
+		"id": "6",
+		"membershipNo": "6",
+		"name": "Mishal Ahmed",
+		"email": "misahmed@qatarairways.com.qa",
+		"password": "1234",
+		"userType": "platinum"
+	},
+	{
+		"id": "7",
+		"membershipNo": "7",
+		"name": "Nemith Managali Vasanth",
+		"email": "mnemith@qatarairways.com.qa",
+		"password": "1234",
+		"userType": "platinum"
+	}
+]

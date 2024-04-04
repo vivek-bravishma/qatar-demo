@@ -1,0 +1,191 @@
+.main-container {
+	background: #fff;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.container-man {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.container-content {
+	flex: 1;
+}
+
+.form-logo-container {
+	height: 100vh;
+	/* background: rgba(255, 255, 255, 0.7); */
+	flex: 3;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10% 0;
+	gap: 10%;
+}
+
+.logo-img {
+	width: 80%;
+	max-width: 400px;
+}
+
+.logoutBtn {
+	all: unset;
+	color: #fff;
+	background: var(--primary1);
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+/* .main-bg-container {
+  background: yellowgreen;
+  height: 100%;
+  flex: 6;
+  position: relative;
+}
+
+.image-container {
+  width: 100%;
+  height: 80%;
+  background: red;
+  background: url("../assets/roundedRect.svg");
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+} */
+
+/* .image-container::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  content: "";
+  height: 80%;
+  background: red;
+  background: url("../assets/roundedRect.svg");
+  object-fit: fill;
+} */
+
+/* .bgImg {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.shape {
+  position: absolute;
+  width: 100%;
+  background: red;
+  height: 80%;
+} */
+
+.main-bg-container {
+	/* background: yellowgreen; */
+	height: 100%;
+	flex: 6;
+	position: relative;
+	overflow: hidden;
+	isolation: isolate;
+}
+
+.image-container {
+	/* background: red; */
+	width: 200%;
+	height: 100%;
+	border-radius: 0 0 0 100px;
+	transform-origin: 0 0;
+	transform: translate(0%, 0%) rotate(var(--neg-img-rot-deg));
+	overflow: hidden;
+}
+
+.bgImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	height: 100%;
+
+	/* width: 100%; */
+	/* background: red; */
+	/* transform: translateY(100%) rotate(20deg); */
+	transform-origin: 0 0;
+	transform: translate(0, 0) rotate(var(--img-rot-deg));
+}
+
+/* @media screen and (max-width: 1200px) {
+  .main-container {
+    flex-direction: column;
+    gap: var(--gap-279xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+} */
+/* @media screen and (max-width: 960px) {
+  .main-container {
+    flex-direction: column;
+    height: max-content;
+  }
+  .main-bg-container {
+    position: relative;
+  }
+} */
+/* @media screen and (max-width: 420px) {
+  .main-container {
+    flex-direction: column;
+    gap: var(--gap-279xs);
+    align-items: center;
+    justify-content: center;
+  }
+} */
+/* landscape portrait */
+@media (orientation: portrait) {
+	.main-container {
+		flex-direction: column-reverse;
+		height: max-content;
+	}
+	.form-logo-container {
+		gap: 2rem;
+		/* transform: translateY(-20%); */
+		z-index: 6;
+	}
+
+	.logo-img {
+		width: 70%;
+	}
+
+	.main-bg-container {
+		/* background: red; */
+		position: relative;
+		top: 0;
+		width: 100%;
+		height: 40vh;
+	}
+	.image-container {
+		position: relative;
+		transform-origin: 0 0;
+		transform: translate(0%, 0%);
+		border-radius: 0;
+		height: 40vh;
+		width: 100%;
+		/* background: blue; */
+	}
+	.bgImg {
+		/* height: 100%; */
+		width: 100%;
+		height: 100%;
+		object-fit: fill;
+		position: relative;
+		transform-origin: 0 0;
+		transform: translate(0%, 0%);
+	}
+}
